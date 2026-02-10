@@ -680,3 +680,33 @@ div .text {
     width: 428px;
     /* Could be more or less, depending on screen size */
 }
+
+/* ===============================
+   DARK MODE
+================================ */
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .navbar {
+    background-color: #1f1f1f;
+}
+
+.dark-mode .subnavbar {
+    background-color: #1a1a1a;
+}
+
+.dark-mode .sidebar {
+    background-color: #1f1f1f;
+}
+
+.dark-mode .card-body {
+    background: #222;
+}
+
+.dark-mode .title,
+.dark-mode .title-enter {
+    color: white;
+}
